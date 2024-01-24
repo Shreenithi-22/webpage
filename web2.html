@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 25px;
+            background-image: url('blue.gif');
+            background-repeat: no-repeat;
+            background-size: auto;
+            padding: 0px;
+        }
+
+        header {
+            background-image: url('bluebg.jpg');
+            color: solid black;
+            text-align: center;
+            padding: 2;
+        }
+
+        nav {
+            background-color: white;
+            color: solid black;
+            padding: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        nav a.login {
+            display: inline-block;
+            padding: 4px 22px;
+            background-color: white;
+            color: darkturquoise;
+            border: 2px solid darkturquoise;
+        }
+
+        #main-content {
+            padding: 10px;
+            text-align: center;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: white;
+            color: white;
+            text-align: center;
+            padding: 4em;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            text-align: center;
+            color: grey;
+        }
+
+        section {
+            
+            
+            background-image: url('blue.gif');
+            background-size: cover;
+            background: linear-gradient(to top,
+            white 0%,
+            white 50%,
+            white 50%,
+            white 100%,
+            );
+           
+        }
+
+        
+        .get-started-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: darkturquoise;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+        }
+
+        section1 {
+            background-color: white;
+            display: flex;
+            
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+         
+        section2 {
+            background-color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+        p3 {
+            text-align: center;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .box3{
+             width: 20%;
+             border-radius: 200px;
+             margin-left: 50px;
+             background-color: silver;
+             text-align: center;
+             color: darkturquoise;
+             padding: 4px 22px;
+         }
+         section4{
+             background-color: white;
+             justify-content: space-evenly;
+             align-items: center;
+         }
+         section3{
+              background-color: white;
+         }
+         .box4{
+             width: 10%;
+             border-radius: 300px;
+             border-style: solid;
+             border-color: white;
+             margin-left: 700px;
+             background-color: silver;
+             text-align: center;
+             color: darkturquoise;
+             padding: 2px 18px;
+         }
+         section5{
+               background-color: white;
+               justify-content: space-evenly;
+               align-items: center;
+         }
+         nav1 {
+            width: 1em;
+            margin: 0 auto;
+            background-color: white;
+            color: solid black;
+            padding: 0;
+        }
+
+        nav1 ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        nav1 ul li {
+            margin-right: 10px;
+        }
+        .content-container img {
+            margin-right: 10px; 
+            max-width: 100px; 
+            height: auto;
+         }
+         section6{
+              margin-left: 00px;
+             background-color: white;
+             justify-content: space-evenly;
+             align-items: center;
+             padding: 0px;
+          }
+         p5{
+            margin-left: 50px;
+           
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            text-align: left;
+            color: black;
+         }
+         p4{
+             margin-left: 50px; 
+             
+             justify-content: space-evenly;
+             text-align: left;
+            color: white;
+            
+            color: grey;
+            margin: 0;
+            padding: 0;
+         } 
+         p6{
+            float: right;
+            border: 0px  black;
+            margin: 0px 0px 25px 50px;
+            margin-right: 400px;
+            height: 0;
+          }
+           p7{
+               margin-left: 200px;
+           
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            text-align: left;
+            color: grey;
+             margin: 0;
+            padding: 0;
+         }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><img src="circle.jpg" alt="circle"></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="login">Login</a></li>
+        </ul>
+    </nav>
+
+    <section id="main-content">
+            <article>
+            <h1><strong>A powerful online engagement tool<br>that’s intuitive and simple to use.</strong></h1><br>
+            <p>With stellar one-click reports and unmatched support, see how<br>
+                Circle will make a difference in your business.</p><br>
+
+            <a href="#" class="get-started-button">Get Started Free ></a>
+    </article>   
+    </section>
+    <section1>
+
+        <p1><img src="pic.jpg" alt="pic"></p1>
+
+    </section1><br>
+    <section5 class="box4">our customers</section5>      <br><br>
+    <section2>  
+          <p3>Trusted by <strong>100,000+customers</strong> in 90+countries</p3>
+    </section2><br><br><br>
+
+     <nav>
+         <ul>
+              <li><img src="c.jpg" alt="c"></li>
+               <li><img src="ya.jpg" alt="ya"></li>
+               <li><img src="b.jpg"alt="b"></li>  
+               <li><img src="del.jpg" alt="del"></li>  
+               <li><img src="birla.jpg" alt="birla"></li>
+               <li><img src="s.jpg" alt="s"></li>
+         </ul>
+         </nav1>
+
+    <footer>
+        <p><span style="color: darkturquoise">&#10004 18281</span> signed up last month</p>
+ <p><span style="color: darkturquoise">&#10004 GDPR</span>-& <span style="color: darkturquoise">CCPA</span>-ready</p>
+<p><span style="color: darkturquoise">&#10004 Leader@G2</span> Summer</p>
+    </footer>
+     
+     <section3>
+<hr></hr>
+      </section3><br><br>
+      </section7><p6><img src="work.jpg" width="400" height="500"></p6></section><br><br><br><br>
+      <section4 class="box3">OUR PROMISE</section4><br><br>
+      <section6>
+          
+           <p5>Tool <strong>built for people.</strong></p5><br>
+            <p4>Whether you want to edit your Google Docs,<br>
+                resolve Jira issues, or collaborate over Zoom.</p4><br><br><br><br>
+                <p7>Circle has 100+ integrations with tools you<br>
+                already use and love.</p7><br><br><br><br><br>
+               <a href="#" class="get-started-button">Get Started Free </a>
+      </section6>
+      <br><br><br><br><br><br><br><br><br><br>
+       <section7>
+             <hr></hr>
+        </section7>
+</body>
+
+
+</html>
